@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="LN0-lm-WVT">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Pledg Example-->
+        <scene sceneID="K04-qq-UgP">
+            <objects>
+                <viewController id="7pr-QV-azN" customClass="ViewController" customModule="PledgKit_Example" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="il3-rc-2XJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="QWr-Mm-7fw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zkb-k6-MYp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="b87-1c-EKp">
+                                <rect key="frame" x="166" y="303.5" width="43" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GLq-If-fLk">
+                                        <rect key="frame" x="0.0" y="0.0" width="43" height="30"/>
+                                        <state key="normal" title="Push"/>
+                                        <connections>
+                                            <action selector="pushButtonPressed:" destination="7pr-QV-azN" eventType="touchUpInside" id="SP7-lv-nCa"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1W0-5T-x5C">
+                                        <rect key="frame" x="0.0" y="30" width="43" height="30"/>
+                                        <state key="normal" title="Modal"/>
+                                        <connections>
+                                            <action selector="modalButtonPressed:" destination="7pr-QV-azN" eventType="touchUpInside" id="uvu-HF-5fe"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="b87-1c-EKp" firstAttribute="centerX" secondItem="zkb-k6-MYp" secondAttribute="centerX" id="HD6-AX-qJE"/>
+                            <constraint firstItem="b87-1c-EKp" firstAttribute="centerY" secondItem="zkb-k6-MYp" secondAttribute="centerY" id="SAG-I2-rRE"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Pledg Example" id="pwD-8U-nRp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DUi-A3-wXz" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="423" y="-649"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qd9-dO-Jxi">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LN0-lm-WVT" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iSR-n0-8g2">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7pr-QV-azN" kind="relationship" relationship="rootViewController" id="efb-Pr-922"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r8t-vk-ekc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-460" y="-670.61469265367316"/>
+        </scene>
+    </scenes>
+</document>

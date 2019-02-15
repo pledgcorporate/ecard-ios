@@ -1,0 +1,33 @@
+{
+  "name": "PledgKit",
+  "version": "0.1.0",
+  "summary": "A short description of PledgKit.",
+  "swift_version": "4.2",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lukasz.zajdel.spawn@gmail.com/PledgKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lukasz.zajdel.spawn@gmail.com": "lukasz.zajdel@mac.com"
+  },
+  "source": {
+    "git": "https://github.com/lukasz.zajdel.spawn@gmail.com/PledgKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "PledgKit/Classes/**/*",
+  "resource_bundles": {
+    "PledgKit": [
+      "PledgKit/Assets/*.{storyboard,xib,xcassets,json,imageset,png}"
+    ]
+  },
+  "dependencies": {
+    "SwiftyJSON": [
+      "~> 4.1.0"
+    ]
+  }
+}

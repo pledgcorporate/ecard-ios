@@ -1,0 +1,6 @@
+framework module PledgKit {
+  umbrella header "PledgKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

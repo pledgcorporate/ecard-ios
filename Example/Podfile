@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PledgKit_Example' do
+  pod 'PledgKit', :path => '../'
+
+  target 'PledgKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

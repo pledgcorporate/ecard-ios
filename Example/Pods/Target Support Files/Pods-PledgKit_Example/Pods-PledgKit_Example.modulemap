@@ -1,0 +1,6 @@
+framework module Pods_PledgKit_Example {
+  umbrella header "Pods-PledgKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
