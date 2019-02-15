@@ -194,18 +194,16 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PledgKit_Example/Pods-PledgKit_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-PledgKit_Example/Pods-PledgKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/PledgKit/PledgKit.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PledgKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PledgKit_Example/Pods-PledgKit_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PledgKit_Example/Pods-PledgKit_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B5792572D42FB1D5C773F950 /* [CP] Check Pods Manifest.lock */ = {

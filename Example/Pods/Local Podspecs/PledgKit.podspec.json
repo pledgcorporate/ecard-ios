@@ -1,33 +1,28 @@
 {
   "name": "PledgKit",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "A short description of PledgKit.",
   "swift_version": "4.2",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/lukasz.zajdel.spawn@gmail.com/PledgKit",
+  "homepage": "https://github.com/pledgcorporate/ecard-ios",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "lukasz.zajdel.spawn@gmail.com": "lukasz.zajdel@mac.com"
+    "lukasz.zajdel.spawn@gmail.com": "lukasz.zajdel.spawn@gmail.com"
   },
   "source": {
-    "git": "https://github.com/lukasz.zajdel.spawn@gmail.com/PledgKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/pledgcorporate/ecard-ios.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "PledgKit/Classes/**/*",
+  "source_files": "PledgKit/Classes/**/*.{h,m,swift}",
   "resource_bundles": {
     "PledgKit": [
       "PledgKit/Assets/*.{storyboard,xib,xcassets,json,imageset,png}"
-    ]
-  },
-  "dependencies": {
-    "SwiftyJSON": [
-      "~> 4.1.0"
     ]
   }
 }

@@ -1,23 +1,16 @@
 PODS:
-  - PledgKit (0.1.0):
-    - SwiftyJSON (~> 4.1.0)
-  - SwiftyJSON (4.1.0)
+  - PledgKit (0.0.1)
 
 DEPENDENCIES:
   - PledgKit (from `../`)
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - SwiftyJSON
 
 EXTERNAL SOURCES:
   PledgKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PledgKit: 7b2a103ffc9affc2abe35fb4ef6adced628742b0
-  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+  PledgKit: 0ff965447ee7a44f000080dfd03ce8daf0e550a1
 
-PODFILE CHECKSUM: 70009f799d4ff64b07dae57f315716e38e1b3458
+PODFILE CHECKSUM: c62c5138d9b6c59fc0461348bdcf47bcf35e7683
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.0.beta.2
