@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  PledgKit
 //
-//  Created by lukasz.zajdel.spawn@gmail.com on 12/13/2018.
-//  Copyright (c) 2018 lukasz.zajdel.spawn@gmail.com. All rights reserved.
+//  Created by Lukasz Zajdel on 12/13/2018.
+//  Copyright (c) 2018 Lukasz Zajdel. All rights reserved.
 //
 
 import UIKit

@@ -1,6 +1,6 @@
 # PledgKit
 
-[![CI Status](https://img.shields.io/travis/lukasz.zajdel.spawn@gmail.com/PledgKit.svg?style=flat)](https://travis-ci.org/lukasz.zajdel.spawn@gmail.com/PledgKit)
+[![CI Status](https://img.shields.io/travis/benoit@pledg.co/PledgKit.svg?style=flat)](https://travis-ci.org/benoit@pledg.co/PledgKit)
 [![Version](https://img.shields.io/cocoapods/v/PledgKit.svg?style=flat)](https://cocoapods.org/pods/PledgKit)
 [![License](https://img.shields.io/cocoapods/l/PledgKit.svg?style=flat)](https://cocoapods.org/pods/PledgKit)
 [![Platform](https://img.shields.io/cocoapods/p/PledgKit.svg?style=flat)](https://cocoapods.org/pods/PledgKit)
